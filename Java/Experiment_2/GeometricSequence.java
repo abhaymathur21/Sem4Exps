@@ -1,5 +1,6 @@
+package Experiment_2;
 import java.lang.Math;
-class GeometricSequence
+public class GeometricSequence
 {
     public static void main(String[] args)
     {
