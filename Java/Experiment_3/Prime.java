@@ -1,7 +1,7 @@
 
 public class Prime 
 {
-    public static void main(String args[]) //taking input from command line arguments -> javac Prime.java -> java Prime 12 -> Output= not prime
+    public static void main(String[] args) // taking input from command line arguments -> javac Prime.java -> java Prime 12 -> Output = It is not a prime number
     {
         int n = Integer.parseInt(args[0]);
         System.out.println(n);
