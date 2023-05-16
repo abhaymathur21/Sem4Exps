@@ -1,4 +1,3 @@
-package Experiment_2;
 import java.lang.Math;
 public class GeometricSequence
 {
