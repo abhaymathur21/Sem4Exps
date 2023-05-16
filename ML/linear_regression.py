@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 ds = pd.read_csv("D:\Lenovo\Documents\GitHub\Sem4Exps\ML\exp1.csv")
 print(ds.shape)
-ds.head()
+print(ds.head())
 
 x=np.array(ds["X"])
 y=np.array(ds["Y"])
