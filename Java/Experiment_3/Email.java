@@ -1,5 +1,5 @@
 import java.io.*;
-public class Email
+public class Email// print number of letters, numvbers and special characters
 {
     public static void main(String[] args)throws Exceptiona 
     {
