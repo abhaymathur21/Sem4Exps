@@ -1,7 +1,7 @@
 def bit_stuffing(data):
     stuffed_data = ''
     count = 0
-
+    
     for bit in data:
         if bit == '1':
             count += 1
