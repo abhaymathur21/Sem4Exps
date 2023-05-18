@@ -13,7 +13,7 @@ def decrypt(text, s):
     result = ""
     for i in text:
         if i.isupper():
-            result += chr((ord(i)-65-s)% 26+65)
+            result += chr((ord(i)-65-s)%26+65)
         elif i == ' ':
             result += ' '
         else:
