@@ -27,7 +27,7 @@ def bruteforce(text):
 text =  "Hello World"
 shift = 4
 result = encrypt(text, shift)
-print("Encrpyted text" +result)
+print("Encrpyted text: " +result)
 result1 = decrypt(result,shift)
-print("Decrypted text" +result1)
+print("Decrypted text: " +result1)
 bruteforce(result)
