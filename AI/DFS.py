@@ -11,7 +11,7 @@ v = []
 
 def dfs(graph,start):
     v.append(start)
-    # print(start) in case u want to print without the "->" nonsense, uncomment this and remove lines 20,21,22 (last 3)
+    # print(start,end=" ") in case u want to print without the "->" nonsense, uncomment this and remove lines 20,21,22 (last 3)
     for node in graph[start]:
         if node not in v:
             dfs(graph,node)
